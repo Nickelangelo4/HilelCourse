@@ -1,4 +1,3 @@
-print('Hello world')
 
 number = int(input("Введіть 4-значне число: "))
 
