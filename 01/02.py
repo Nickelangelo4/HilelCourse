@@ -1,3 +1,5 @@
-lst = [12, 3, 4, 9]
-result = lst[-1:] + lst[:-1] if len(lst) > 1 else lst
+lst = [0, 12, 0, 5, 3]
+non_zero_elements = [x for x in lst if x != 0]
+zero_count = lst.count(0)
+result = non_zero_elements + [0] * zero_count
 print(result)
